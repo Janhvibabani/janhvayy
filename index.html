@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,300,400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>portfolio</title>
+</head>
+<body>
+    <nav id="mainNavbar" class = "navbar navbar-dark navbar-expand-md py-0 fixed-top">
+        <a href = "#" class = "navbar-brand">DABBA</a>
+        <button class = "navbar-toggler" data-toggler = "collapse" data-target="#navLinks" aria-label = "Toggle Navigation"> 
+        <span class = "navbar-toggler-icon"></span>
+        </button>
+        <div class = "collapse navbar-collapse" id = "navLinks">
+          <ul class="navbar-nav">
+            <li class = "nav-item">
+              <a href ="" class = "nav-link">HOME</a>
+            </li>
+            <li class = "nav-item">
+              <a href ="" class = "nav-link">ABOUT</a>
+            </li>
+            <li class = "nav-item">
+              <a href ="" class = "nav-link">CONNECT</a>
+            </li> 
+          </ul>
+        </div>
+      </nav>
+      <section class = "container-fluid px-0">
+        <div class = "row align-items-center">
+          <div class ="col-lg-6">
+            <div id = "headingGroup"class = "text-white text-center d-none d-lg-block mt-5">
+            <h1 class = "">GOOD DAYS ARE COMING!</h1>
+            <h1 class = "">GOOD DAYS ARE COMING!</h1>
+            <h1 class = "">GOOD DAYS ARE COMING!</h1>
+            <h1 class = "">GOOD DAYS ARE COMING!</h1>
+            <h1 class = "">GOOD DAYS ARE COMING!</h1>
+            <h1 class = "">GOOD DAYS ARE COMING!</h1>
+            <h1 class = "">GOOD DAYS ARE COMING!</h1>
+            <h1 class = "">GOOD DAYS ARE COMING!</h1>
+          </div>
+          </div>
+          <div class ="col-lg-6">
+            <img class = "img-fluid"src="assets/images/aesthetic.jpg" alt = "">
+          </div>
+        </div>
+      </section>
+      <section class = "container-fluid px-0">
+        <div class = "row align-items-center content">
+          <div class = "col-md-6 order-2 order-md-1">
+          <img src = "assets/images/sky.jpg" alt = "" class = "img-fluid">
+        </div>
+        <div class = "col-md-6 text-center order-1 order-md-2">
+            <div class = "row justify-content-center">
+            <div class="col-10 col-lg-8 blurb mb-5 mb-md-0">
+              <h2>SKIES!!</h2>
+              
+              <p class = "lead">I love to look up at the sky and imagine all the possibilities. I can see myself soaring through the clouds on a magic carpet, or exploring a distant planet. I can see myself falling in love under a starry sky, or watching a shooting star make a wish. The sky is a place of magic and wonder. It's a place where anything is possible. And it's a place where I can always find peace and inspiration.</p>
+            </div>
+            </div>
+          </div>
+        </div>
+        <div class = "row align-items-center content">
+            <div class = "col-md-6 text-center">
+            <div class = "row justify-content-center">
+            <div class="col-10 col-lg-8 blurb">
+              <h2>PHOOL!!</h2>
+              
+              <p class = "lead">I love to look at flowers. They make me feel happy and peaceful. I love the way they smell, and I love the way they make me feel like I'm in a different world.
+Flowers are a reminder that even in the midst of chaos, there is still beauty to be found. They are a symbol of hope, and they remind me that things will always get better.</p>
+            </div>
+            </div>
+          </div>
+          <div class = "col-md-6 ">
+            <img src = "assets/images/phool.jpg" alt = "" class = "img-fluid">
+          </div>
+        </div>
+        <div class = "row align-items-center content">
+            <div class = "col-md-6 order-2 order-md-1">
+            <img src = "assets/images/LOL.jpg" alt = "" class = "img-fluid">
+          </div>
+            <div class = "col-md-6 text-center order-1 order-md-2">
+            <div class = "row justify-content-center">
+            <div class="col-10 col-lg-8 blurb mb-5 mb-md-0">
+              <h2>YOLO BHAI YOLO!!</h2>
+              <p class = "lead">In the end we have to accept the fact that no one knows what they are doing, DO WHAT MAKES YOU HAPPYYY!!!</p>
+            </div>
+            </div>
+          </div>
+          </div>
+            </section>
+              <!-- Optional JavaScript -->
+              <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+              <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+              <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+              <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+                <script>
+                  $(function () {
+                      $(document).scroll(function () {
+                          var $nav = $("#mainNavbar");
+                          $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+                      });
+                  });
+              </script>
+            </body>
+          </html>
+
+
+    
+</body>
+</html>
